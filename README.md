@@ -1,12 +1,12 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/" />
 </div>
 
 # Run and deploy your AI Studio app
 
 This contains everything you need to run your app locally.
 
-View your app in AI Studio: https://ai.studio/apps/797c0fc9-40ca-4738-96aa-c3f417b205ce
+View your app anywhere
 
 ## Run Locally
 
@@ -18,3 +18,10 @@ View your app in AI Studio: https://ai.studio/apps/797c0fc9-40ca-4738-96aa-c3f41
 2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
 3. Run the app:
    `npm run dev`
+
+MAKE SURE YOU GIVE A STAR TO THE PROJECT 
+
+FOLLOW THE USER
+
+THIS APP MADE BY FAHAD MOHAMED FROM TANZANIA FOR ALL GAMER TO SIMPLIFY THEIR GAMING ABILITY 
+THANKS 
