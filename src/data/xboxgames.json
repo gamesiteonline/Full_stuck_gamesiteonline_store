@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Halo Infinite",
+    "link": "https://example.com/download/halo_infinite",
+    "cover": "https://raw.githubusercontent.com/Andiweli/HexFlow-Covers/main/Covers/Microsoft%20-%20Xbox/Halo%20Infinite%20(USA).png",
+    "size": "50GB",
+    "category": "FPS",
+    "rating": 4.6,
+    "downloads": "2M"
+  },
+  {
+    "title": "Forza Horizon 5",
+    "link": "https://example.com/download/fh5",
+    "cover": "https://raw.githubusercontent.com/Andiweli/HexFlow-Covers/main/Covers/Microsoft%20-%20Xbox/Forza%20Horizon%205%20(USA).png",
+    "size": "100GB",
+    "category": "Racing",
+    "rating": 4.9,
+    "downloads": "10M"
+  },
+  {
+    "title": "Gears 5",
+    "link": "https://example.com/download/gears5",
+    "cover": "https://raw.githubusercontent.com/Andiweli/HexFlow-Covers/main/Covers/Microsoft%20-%20Xbox/Gears%205%20(USA).png",
+    "size": "80GB",
+    "category": "TPS",
+    "rating": 4.7,
+    "downloads": "4M"
+  }
+]

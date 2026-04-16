@@ -1,0 +1,29 @@
+[
+  {
+    "title": "God of War Ragnarök",
+    "link": "https://example.com/download/gowr",
+    "cover": "https://raw.githubusercontent.com/Andiweli/HexFlow-Covers/main/Covers/Sony%20-%20PlayStation%204/God%20of%20War%20Ragnarok%20(USA).png",
+    "size": "84GB",
+    "category": "Action",
+    "rating": 4.9,
+    "downloads": "1.2M"
+  },
+  {
+    "title": "Spider-Man: Miles Morales",
+    "link": "https://example.com/download/spiderman_mm",
+    "cover": "https://raw.githubusercontent.com/Andiweli/HexFlow-Covers/main/Covers/Sony%20-%20PlayStation%204/Marvel's%20Spider-Man%20-%20Miles%20Morales%20(USA).png",
+    "size": "40GB",
+    "category": "Action",
+    "rating": 4.8,
+    "downloads": "3M"
+  },
+  {
+    "title": "Ghost of Tsushima",
+    "link": "https://example.com/download/got",
+    "cover": "https://raw.githubusercontent.com/Andiweli/HexFlow-Covers/main/Covers/Sony%20-%20PlayStation%204/Ghost%20of%20Tsushima%20(USA).png",
+    "size": "50GB",
+    "category": "Action",
+    "rating": 4.9,
+    "downloads": "5M"
+  }
+]

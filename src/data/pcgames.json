@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Grand Theft Auto V",
+    "link": "https://example.com/download/gtav",
+    "cover": "https://picsum.photos/seed/gtav/600/400",
+    "size": "110GB",
+    "category": "Open World",
+    "rating": 4.8,
+    "downloads": "15M"
+  },
+  {
+    "title": "Cyberpunk 2077",
+    "link": "https://example.com/download/cp2077",
+    "cover": "https://picsum.photos/seed/cp2077/600/400",
+    "size": "70GB",
+    "category": "RPG",
+    "rating": 4.5,
+    "downloads": "5M"
+  },
+  {
+    "title": "Elden Ring",
+    "link": "https://example.com/download/eldenring",
+    "cover": "https://picsum.photos/seed/eldenring/600/400",
+    "size": "60GB",
+    "category": "Action RPG",
+    "rating": 4.9,
+    "downloads": "8M"
+  }
+]

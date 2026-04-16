@@ -1,0 +1,82 @@
+[
+  {
+    "id": "emu-1",
+    "name": "PPSSPP Gold",
+    "platform": "PSP",
+    "version": "1.17.1",
+    "description": "The best PSP emulator for Android, Windows, and iOS. High compatibility and performance.",
+    "downloadUrl": "https://www.ppsspp.org/downloads/",
+    "icon": "https://www.ppsspp.org/static/img/logo.png",
+    "category": "Mobile/PC"
+  },
+  {
+    "id": "emu-2",
+    "name": "AetherSX2",
+    "platform": "PS2",
+    "version": "v1.5-3668",
+    "description": "High-performance PS2 emulator for Android devices. Play your favorite PS2 classics on the go.",
+    "downloadUrl": "https://www.aethersx2.com/archive/",
+    "icon": "https://picsum.photos/seed/ps2emu/200/200",
+    "category": "Mobile"
+  },
+  {
+    "id": "emu-3",
+    "name": "PCSX2",
+    "platform": "PS2",
+    "version": "v1.7.0",
+    "description": "The definitive PS2 emulator for PC. Supports 4K resolution and widescreen patches.",
+    "downloadUrl": "https://pcsx2.net/downloads/",
+    "icon": "https://pcsx2.net/images/logo.png",
+    "category": "PC"
+  },
+  {
+    "id": "emu-4",
+    "name": "DuckStation",
+    "platform": "PS1",
+    "version": "Latest",
+    "description": "A fast and accurate PS1 emulator. Features PGXP for perspective-correct textures.",
+    "downloadUrl": "https://github.com/stenzek/duckstation/releases",
+    "icon": "https://picsum.photos/seed/ps1emu/200/200",
+    "category": "Mobile/PC"
+  },
+  {
+    "id": "emu-5",
+    "name": "Dolphin Emulator",
+    "platform": "Wii/GC",
+    "version": "5.0",
+    "description": "The most popular emulator for GameCube and Wii. Supports HD textures and online play.",
+    "downloadUrl": "https://dolphin-emu.org/download/",
+    "icon": "https://dolphin-emu.org/static/img/logo.png",
+    "category": "Mobile/PC"
+  },
+  {
+    "id": "emu-6",
+    "name": "Vita3K",
+    "platform": "PS Vita",
+    "version": "v0.1.9",
+    "description": "The world's first functional PlayStation Vita emulator for Windows and Android.",
+    "downloadUrl": "https://vita3k.org/index.html?lang=en#download",
+    "icon": "https://vita3k.org/vita3k.png",
+    "category": "Mobile/PC"
+  },
+  {
+    "id": "emu-7",
+    "name": "RPCS3",
+    "platform": "PS3",
+    "version": "v0.0.30",
+    "description": "An open-source PlayStation 3 emulator. Play PS3 exclusives on your PC.",
+    "downloadUrl": "https://rpcs3.net/download",
+    "icon": "https://rpcs3.net/img/logo.png",
+    "category": "PC"
+  },
+  {
+    "id": "emu-8",
+    "name": "Citra",
+    "platform": "3DS",
+    "version": "Latest",
+    "description": "The most advanced Nintendo 3DS emulator. Supports high-resolution rendering.",
+    "downloadUrl": "https://citra-emu.org/download/",
+    "icon": "https://citra-emu.org/static/img/logo.png",
+    "category": "Mobile/PC"
+  }
+]

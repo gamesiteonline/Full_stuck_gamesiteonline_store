@@ -1,0 +1,73 @@
+[
+  {
+    "id": "ppsspp-guide",
+    "emulator": "PPSSPP",
+    "platform": "PSP",
+    "steps": [
+      "Download and install the PPSSPP emulator from the ROMs section.",
+      "Download your desired PSP game in .ISO or .CSO format.",
+      "Create a folder named 'PSP' on your storage, and a subfolder named 'GAME' inside it.",
+      "Move your game files into the 'PSP/GAME' folder.",
+      "Open PPSSPP, navigate to the 'Games' tab, and locate your PSP/GAME folder.",
+      "Tap the game icon to start playing!"
+    ],
+    "tips": [
+      "Use .CSO format to save storage space.",
+      "Enable 'Buffered Rendering' for better compatibility.",
+      "Set 'Rendering Resolution' to 2x or higher for HD graphics if your device is powerful."
+    ]
+  },
+  {
+    "id": "aethersx2-guide",
+    "emulator": "AetherSX2",
+    "platform": "PS2",
+    "steps": [
+      "Install AetherSX2 from the official link.",
+      "Obtain a PS2 BIOS file (required for legal reasons, usually named scphXXXX.bin).",
+      "Download your PS2 games in .ISO or .CHD format.",
+      "Open AetherSX2 and follow the setup wizard to select your BIOS file.",
+      "Point the app to your games folder.",
+      "Select a game and enjoy PS2 classics on your phone!"
+    ],
+    "tips": [
+      "Use .CHD format to compress large PS2 games without losing quality.",
+      "Vulkan renderer is usually faster than OpenGL on modern Android devices.",
+      "Enable 'Affinity Control' if you have a multi-core processor."
+    ]
+  },
+  {
+    "id": "duckstation-guide",
+    "emulator": "DuckStation",
+    "platform": "PS1",
+    "steps": [
+      "Download DuckStation for your platform.",
+      "Get the PS1 BIOS (e.g., scph5501.bin).",
+      "Download games in .BIN/.CUE or .CHD format.",
+      "In DuckStation settings, set the BIOS directory and select your BIOS file.",
+      "Add your game directory to the library.",
+      "Launch the game and use PGXP settings for enhanced 3D graphics."
+    ],
+    "tips": [
+      "Enable PGXP 'Texture Correction' to fix wobbly PS1 textures.",
+      "Use 'Internal Resolution Scale' to play PS1 games in 1080p or 4K.",
+      "Save states are your best friend for difficult retro games."
+    ]
+  },
+  {
+    "id": "dolphin-guide",
+    "emulator": "Dolphin",
+    "platform": "GameCube / Wii",
+    "steps": [
+      "Install Dolphin Emulator.",
+      "Download GameCube (.ISO/.GCZ) or Wii (.ISO/.WBFS) games.",
+      "Open Dolphin and tap the '+' button to add your games folder.",
+      "For Wii games, you may need to configure the 'Emulated Wii Remote'.",
+      "Launch the game and adjust graphics settings per-game for best performance."
+    ],
+    "tips": [
+      "Use 'Skip EFB Access from CPU' to speed up many games.",
+      "Shader Compilation: Use 'Asynchronous (Ubershaders)' to eliminate stuttering.",
+      "WBFS is the best format for Wii games as it removes 'junk' data."
+    ]
+  }
+]

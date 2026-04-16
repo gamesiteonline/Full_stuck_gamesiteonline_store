@@ -1,0 +1,118 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // ===============================================================
+    // Assumed Data Model
+    // ===============================================================
+    //
+    // Collection: users
+    // Document ID: userId (auth.uid)
+    // Fields:
+    //   - uid: string (required)
+    //   - email: string (required)
+    //   - displayName: string
+    //   - photoURL: string
+    //   - role: string (admin, user)
+    //   - createdAt: timestamp
+    //
+    // Collection: games
+    // Document ID: gameId
+    // Fields:
+    //   - id: string (required)
+    //   - title: string (required)
+    //   - platform: string (required)
+    //   - rating: number
+    //   - downloads: string
+    //   - size: string
+    //   - image: string
+    //   - downloadUrl: string (required)
+    //   - description: string
+    //   - category: string
+    //   - screenshots: list
+    //   - createdAt: timestamp
+    //   - authorUid: string
+    //
+    // ===============================================================
+
+    // ===============================================================
+    // Helper Functions
+    // ===============================================================
+    
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    function isOwner(userId) {
+      return isAuthenticated() && request.auth.uid == userId;
+    }
+
+    function isAdmin() {
+      return isAuthenticated() && 
+        (get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'admin' ||
+         ((request.auth.token.email == "fahadgroyne@gmail.com" || 
+           request.auth.token.email == "12345678demox@gmail.com" || 
+           request.auth.token.email == "demoxgroyne@outlook.com") && 
+          request.auth.token.email_verified == true));
+    }
+
+    function isValidUser(data) {
+      return data.keys().hasAll(['uid', 'email']) &&
+             data.uid is string &&
+             data.email is string &&
+             data.email.matches("^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$");
+    }
+
+    function isValidGame(data) {
+      return data.keys().hasAll(['id', 'title', 'platform', 'downloadUrl']) &&
+             data.title is string && data.title.size() > 0 && data.title.size() < 100 &&
+             data.platform is string &&
+             data.downloadUrl is string &&
+             (data.downloadUrl.matches("^https://.*") || data.downloadUrl.matches("^http://.*"));
+    }
+
+    function isValidComment(data) {
+      return data.keys().hasAll(['gameId', 'userId', 'text']) &&
+             data.gameId is string &&
+             data.userId == request.auth.uid &&
+             data.text is string && data.text.size() > 0 && data.text.size() < 500;
+    }
+
+    // ===============================================================
+    // Rules
+    // ===============================================================
+
+    match /users/{userId} {
+      allow read: if isAuthenticated();
+      allow create: if isAuthenticated() && isOwner(userId) && isValidUser(request.resource.data) && request.resource.data.role == 'user';
+      allow update: if isAuthenticated() && isOwner(userId) && isValidUser(request.resource.data) && request.resource.data.role == resource.data.role;
+      allow update: if isAdmin();
+    }
+
+    match /games/{gameId} {
+      allow read: if true;
+      allow create: if isAdmin();
+      allow update: if isAdmin() || (isAuthenticated() && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['likesCount', 'downloadsCount']));
+      allow delete: if isAdmin();
+    }
+
+    match /comments/{commentId} {
+      allow read: if true;
+      allow create: if isAuthenticated() && isValidComment(request.resource.data);
+      allow delete: if isAdmin() || (isAuthenticated() && resource.data.userId == request.auth.uid);
+    }
+
+    match /likes/{likeId} {
+      allow read: if true;
+      allow create: if isAuthenticated() && request.resource.data.userId == request.auth.uid;
+      allow delete: if isAuthenticated() && resource.data.userId == request.auth.uid;
+    }
+
+    match /emulators/{emulatorId} {
+      allow read: if true;
+      allow create: if isAdmin();
+      allow update: if isAdmin();
+      allow delete: if isAdmin();
+    }
+  }
+}

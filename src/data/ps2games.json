@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Grand Theft Auto: San Andreas",
+    "link": "https://archive.org/download/ps2-collection/GTA%20San%20Andreas.iso",
+    "cover": "https://raw.githubusercontent.com/Andiweli/HexFlow-Covers/main/Covers/Sony%20-%20PlayStation%202/Grand%20Theft%20Auto%20-%20San%20Andreas%20(USA).png",
+    "size": "4.2GB",
+    "category": "Open World",
+    "rating": 4.9,
+    "downloads": "20M"
+  },
+  {
+    "title": "God of War II",
+    "link": "https://archive.org/download/ps2-collection/God%20of%20War%20II.iso",
+    "cover": "https://raw.githubusercontent.com/Andiweli/HexFlow-Covers/main/Covers/Sony%20-%20PlayStation%202/God%20of%20War%20II%20(USA).png",
+    "size": "7.9GB",
+    "category": "Action",
+    "rating": 4.9,
+    "downloads": "12M"
+  },
+  {
+    "title": "Resident Evil 4",
+    "link": "https://archive.org/download/ps2-collection/Resident%20Evil%204.iso",
+    "cover": "https://raw.githubusercontent.com/Andiweli/HexFlow-Covers/main/Covers/Sony%20-%20PlayStation%202/Resident%20Evil%204%20(USA).png",
+    "size": "4.3GB",
+    "category": "Horror",
+    "rating": 4.8,
+    "downloads": "10M"
+  }
+]

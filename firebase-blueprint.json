@@ -1,0 +1,103 @@
+{
+  "entities": {
+    "Game": {
+      "title": "Game",
+      "description": "A game available in the store",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "platform": { "type": "string" },
+        "rating": { "type": "number" },
+        "downloads": { "type": "string" },
+        "size": { "type": "string" },
+        "image": { "type": "string" },
+        "downloadUrl": { "type": "string" },
+        "description": { "type": "string" },
+        "category": { "type": "string" },
+        "screenshots": { "type": "array", "items": { "type": "string" } },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "authorUid": { "type": "string" }
+      },
+      "required": ["id", "title", "platform", "downloadUrl"]
+    },
+    "Emulator": {
+      "title": "Emulator",
+      "description": "An emulator available for download",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "platform": { "type": "string" },
+        "version": { "type": "string" },
+        "description": { "type": "string" },
+        "downloadUrl": { "type": "string" },
+        "icon": { "type": "string" },
+        "category": { "type": "string" }
+      },
+      "required": ["id", "name", "platform", "downloadUrl"]
+    },
+    "User": {
+      "title": "User",
+      "description": "A user of the application",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string" },
+        "email": { "type": "string" },
+        "displayName": { "type": "string" },
+        "photoURL": { "type": "string" },
+        "role": { "type": "string", "enum": ["admin", "user"] },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["uid", "email"]
+    },
+    "Comment": {
+      "title": "Comment",
+      "description": "A user comment on a game",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "gameId": { "type": "string" },
+        "userId": { "type": "string" },
+        "userName": { "type": "string" },
+        "userPhoto": { "type": "string" },
+        "text": { "type": "string" },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["gameId", "userId", "text"]
+    },
+    "Like": {
+      "title": "Like",
+      "description": "A user like on a game",
+      "type": "object",
+      "properties": {
+        "gameId": { "type": "string" },
+        "userId": { "type": "string" },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["gameId", "userId"]
+    }
+  },
+  "firestore": {
+    "/games/{gameId}": {
+      "schema": "Game",
+      "description": "Collection of games"
+    },
+    "/emulators/{emulatorId}": {
+      "schema": "Emulator",
+      "description": "Collection of emulators"
+    },
+    "/users/{userId}": {
+      "schema": "User",
+      "description": "Collection of user profiles"
+    },
+    "/comments/{commentId}": {
+      "schema": "Comment",
+      "description": "Collection of game comments"
+    },
+    "/likes/{likeId}": {
+      "schema": "Like",
+      "description": "Collection of game likes"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "title": "The Legend of Zelda: Breath of the Wild",
+    "link": "https://example.com/download/botw",
+    "cover": "https://raw.githubusercontent.com/Andiweli/HexFlow-Covers/main/Covers/Nintendo%20-%20Wii%20U/The%20Legend%20of%20Zelda%20-%20Breath%20of%20the%20Wild%20(USA).png",
+    "size": "14GB",
+    "category": "Adventure",
+    "rating": 4.9,
+    "downloads": "25M"
+  },
+  {
+    "title": "Super Mario Odyssey",
+    "link": "https://example.com/download/mario_odyssey",
+    "cover": "https://picsum.photos/seed/mario/600/400",
+    "size": "6GB",
+    "category": "Platformer",
+    "rating": 4.9,
+    "downloads": "20M"
+  },
+  {
+    "title": "Mario Kart 8 Deluxe",
+    "link": "https://example.com/download/mk8d",
+    "cover": "https://picsum.photos/seed/mariokart/600/400",
+    "size": "7GB",
+    "category": "Racing",
+    "rating": 4.8,
+    "downloads": "40M"
+  }
+]

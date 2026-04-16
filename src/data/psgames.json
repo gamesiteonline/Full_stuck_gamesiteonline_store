@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Tekken 3",
+    "link": "https://archive.org/download/psx-collection/Tekken%203.zip",
+    "cover": "https://raw.githubusercontent.com/Andiweli/HexFlow-Covers/main/Covers/Sony%20-%20PlayStation/Tekken%203%20(USA).png",
+    "size": "450MB",
+    "category": "Fighting",
+    "rating": 4.9,
+    "downloads": "10M"
+  },
+  {
+    "title": "Resident Evil 2",
+    "link": "https://archive.org/download/psx-collection/Resident%20Evil%202.zip",
+    "cover": "https://raw.githubusercontent.com/Andiweli/HexFlow-Covers/main/Covers/Sony%20-%20PlayStation/Resident%20Evil%202%20(USA).png",
+    "size": "700MB",
+    "category": "Horror",
+    "rating": 4.8,
+    "downloads": "5M"
+  },
+  {
+    "title": "Metal Gear Solid",
+    "link": "https://archive.org/download/psx-collection/Metal%20Gear%20Solid.zip",
+    "cover": "https://raw.githubusercontent.com/Andiweli/HexFlow-Covers/main/Covers/Sony%20-%20PlayStation/Metal%20Gear%20Solid%20(USA).png",
+    "size": "1.4GB",
+    "category": "Stealth",
+    "rating": 4.9,
+    "downloads": "7M"
+  }
+]
