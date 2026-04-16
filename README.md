@@ -1,5 +1,5 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/blob/main/IMG-20260329-WA0016.jpg" />
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/gamesiteonline/Full_stuck_gamesiteonline_store/blob/main/IMG-20260329-WA0016.jpg" />
 </div>
 
 # FAHAD GAME SITE ONLINE STORE 
