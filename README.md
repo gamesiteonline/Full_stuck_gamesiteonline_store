@@ -24,4 +24,43 @@ View your app anywhere
 FOLLOW THE USER
 
 # THIS APP MADE BY FAHAD MOHAMED FROM TANZANIA FOR ALL GAMER TO SIMPLIFY THEIR GAMING ABILITY 
+
 THANKS 
+
+# FOLLOW ME IN 
+
+## WHATSAPP CHANNEL 
+_https://whatsapp.com/channel/0029Vb7jjtZLo4hnTZRnqW1n_
+
+## YOUTUBE 
+_https://www.youtube.com/@gamesiteonline_
+
+## REDIT 
+_https://www.reddit.com/u/fahadgroyne/s/JmyZL3pPYa_
+
+## SNAPCHAT 
+_https://www.snapchat.com/add/gamesiteonline?share_id=hP7PKuqfIN8&locale=en-GB_
+
+## LINKTREE
+_https://linktr.ee/fahadgroyne_
+
+## PINTEREST 
+_https://pin.it/5aB39I8wy_
+
+## THREAD
+_https://www.threads.com/@d.e.m.o.x_11_
+
+## INSTAGRAM CHANNEL 
+> _https://www.instagram.com/channel/Aba9KPoJDIJ-im6Z/_
+
+## INSTAGRAM GAMESITEONLINE 
+> _https://www.instagram.com/games_site_online?igsh=cnBpc25tNXZtYW52_
+
+## INSTAGRAM PERSONAL 
+> _https://www.instagram.com/d.e.m.o.x_11?igsh=NnQ3ZWVmYXh4b2Zn_
+
+## EMAIL ME
+_fahadgroyne@gmail.com_
+
+*THANKS FOR SUPPORT*
+
