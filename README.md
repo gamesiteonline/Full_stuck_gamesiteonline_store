@@ -2,7 +2,7 @@
 <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/" />
 </div>
 
-# Run and deploy your AI Studio app
+# FAHAD GAME SITE ONLINE STORE 
 
 This contains everything you need to run your app locally.
 
@@ -19,9 +19,9 @@ View your app anywhere
 3. Run the app:
    `npm run dev`
 
-MAKE SURE YOU GIVE A STAR TO THE PROJECT 
+# MAKE SURE YOU GIVE A STAR TO THE PROJECT 
 
 FOLLOW THE USER
 
-THIS APP MADE BY FAHAD MOHAMED FROM TANZANIA FOR ALL GAMER TO SIMPLIFY THEIR GAMING ABILITY 
+# THIS APP MADE BY FAHAD MOHAMED FROM TANZANIA FOR ALL GAMER TO SIMPLIFY THEIR GAMING ABILITY 
 THANKS 
